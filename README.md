@@ -34,5 +34,5 @@ To set up the React Native Pizza App locally, follow these steps:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/react-native-pizza-app.git
+   git clone https://github.com/Rahulrockss/PizzaApp.git
    cd react-native-pizza-app
