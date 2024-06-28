@@ -1,50 +1,38 @@
-# Welcome to your Expo app 👋
+# React Native Pizza App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-## Get started
 
-1. Install dependencies
+## Overview
+
+The React Native Pizza App is a mobile application that allows users to browse a variety of pizzas and desserts, add them to a cart, and proceed to checkout. Built with TypeScript and Expo, this application provides a seamless and engaging user experience by integrating with a pizza and desserts API to fetch and display dynamic data.
+
+## Features
+
+- **Browse Pizzas:** View a comprehensive list of available pizzas with high-quality images, detailed descriptions, and prices.
+- **Pizza Customization:** Customize your pizza by selecting different sizes and additional toppings before adding it to your cart.
+- **Add to Cart:** Easily add selected pizzas to your shopping cart with a single tap.
+- **Persistent Cart:** The cart items are stored locally using AsyncStorage, ensuring that the cart retains its contents even after the app is closed and reopened.
+- **Navigation:** Navigate smoothly between different screens using React Navigation with a tab-based navigation system for Home and Cart screens.
+- **API Integration:** Dynamically fetch and display pizza data from a RESTful API.
+- **Responsive UI:** Designed to provide a consistent and responsive user experience across both iOS and Android devices.
+
+## Screenshots
+
+![Home Screen](./assets/screenshots/home.png)
+*Home Screen: Browse and select pizzas.*
+
+![Pizza Details Screen](./assets/screenshots/details.png)
+*Pizza Details Screen: View pizza details and add to cart.*
+
+![Cart Screen](./assets/screenshots/cart.png)
+*Cart Screen: Review selected items and proceed to checkout.*
+
+## Installation
+
+To set up the React Native Pizza App locally, follow these steps:
+
+1. **Clone the repository:**
 
    ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-    npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+   git clone https://github.com/yourusername/react-native-pizza-app.git
+   cd react-native-pizza-app
